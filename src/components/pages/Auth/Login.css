@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background: url("../../images/Image/loginBg.jpg"); */
+    background-size: cover;
+}
+
+.container {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-bottom: 100px;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    padding: 40px;
+    /* background: #5a3c3c99; */
+    background: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    border: radius 10px;
+    color: #000;
+}
+
+.container .inputBox {
+    position: relative;
+}
+
+.container .inputBox input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #000;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 2px solid #000;
+    outline: none;
+    background: transparent;
+}
+
+.error {
+    color: red;
+}
+
+.label {
+    cursor: pointer;
+}
+
+.container input[type="submit"] {
+    width: 200px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background: #53f403;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.auth {
+    margin: 0 auto;
+    margin-top: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .auth-container {
+    width: 570px;
+    height: 457px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    background: #ffffff;
+    border: 1px solid #ababab;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-align: center;
+  } */
+
+.auth button {
+    outline: none;
+    width: 457px;
+    height: 51px;
+    background: #ffffff;
+    border: 1px solid #c7c7c7;
+    box-sizing: border-box;
+    border-radius: 57px;
+}
+
+.auth img {
+    width: 40px;
+    height: 31.74px;
+    margin-left: -350px;
+    margin-bottom: -40px;
+    z-index: 5;
+}
+
+/* .auth button {
+    width: 400px;
+    height: 50px;
+    border-radius: 25px;
+    outline: none;
+} */
+
+/* .auth button img {
+    width: 40px;
+} */
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 300px;
+    }
+    .auth {
+        margin-top: 690px;
+    }
+}
