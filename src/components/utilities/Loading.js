@@ -2,7 +2,7 @@ import React from "react";
 import "./Loading.css";
 const Loading = () => {
     return (
-        <div id="main_loading">
+        <div id="loading-container">
             <div className="loading">
                 <div className="circle"></div>
                 <div className="circle"></div>

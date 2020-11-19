@@ -13,7 +13,6 @@ import { AuthContext } from "../../../App";
 import { useForm } from "react-hook-form";
 
 export const Login = () => {
-    // const [newUser, setNewUser] = useState(false);
     const { register, handleSubmit, errors } = useForm();
 
     const [name, setName] = useState("");

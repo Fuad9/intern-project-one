@@ -9,13 +9,6 @@ const Home = () => {
     const history = useHistory();
     const [loading, setLoading] = useState(false);
 
-    console.log(categories);
-
-    // useEffect(() => {
-    //     fetch("https://cryptic-harbor-99927.herokuapp.com/showCategories")
-    //         .then((res) => res.json())
-    //         .then((data) => setCategories(data));
-    // }, []);
 
     useEffect(() => {
         const getData = async () => {

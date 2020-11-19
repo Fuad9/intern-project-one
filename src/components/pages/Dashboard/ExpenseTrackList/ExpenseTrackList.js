@@ -10,14 +10,6 @@ const ExpenseTrackList = () => {
     const [loggedInUser] = useContext(AuthContext);
     const [loading, setLoading] = useState(false);
 
-    console.log(allExpenses);
-
-    // useEffect(() => {
-    //     fetch("https://cryptic-harbor-99927.herokuapp.com/showAllExpenses")
-    //         .then((res) => res.json())
-    //         .then((data) => setAllExpenses(data));
-    // }, []);
-
     useEffect(() => {
         const getData = async () => {
             try {
