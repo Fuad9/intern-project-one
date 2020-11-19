@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import Axios from "axios";
 import { AuthContext } from "../../../../App";
-import ExpenseTrackListTable from "../../ExpenseTrackListTable/ExpenseTrackListTable";
+import ExpenseTrackListTable from "../ExpenseTrackListTable/ExpenseTrackListTable";
 import Sidebar from "../Sidebar/Sidebar";
 import Loading from "../../../utilities/Loading";
 

@@ -24,7 +24,9 @@ const Sidebar = () => {
         >
             <ul className="list-unstyled">
                 <li>
-                    <Link to="/home">Home</Link>
+                    <NavLink to="/home">
+                        <h3>Home</h3>
+                    </NavLink>
                 </li>
                 {loggedInUser && (
                     <div className="mt-5">

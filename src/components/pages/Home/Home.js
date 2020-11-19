@@ -3,12 +3,12 @@ import Axios from "axios";
 import { useHistory } from "react-router-dom";
 import Loading from "../../utilities/Loading";
 import "./Home.css";
+import NavBar from "../Shared/NavBar/NavBar";
 
 const Home = () => {
     const [categories, setCategories] = useState([]);
     const history = useHistory();
     const [loading, setLoading] = useState(false);
-
 
     useEffect(() => {
         const getData = async () => {
@@ -26,6 +26,7 @@ const Home = () => {
 
     return (
         <>
+            <NavBar />
             <h2 className="text-primary p-5 text-center">Categories</h2>
             {loading ? (
                 <Loading />
